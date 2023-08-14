@@ -1,0 +1,25 @@
+Python: an object-oriented programming language; arguably easier to learn than Java, C# etc.
+
+Python is mostly used for scripting, not for the building of apps
+
+Current version: 3.11
+
+Installation: python.org/downloads
+
+Python was re-written between version 2 and 3; v2 code is incompatible with v3 code
+
+Much of what we do has not changed for a long time.
+
+Once installed (the interpreter)
+
+Python can be run two ways:
+
+Script mode
+
+Interactive / terminal
+
+There are many Python implementations; the default one is written in C 
+
+There are other implementations: Jython; IronPython etc.
+
+Python editors: PyCharm, Spyder, Idle (specific); Visual Studio Code, IntelliJ, Eclipse, Sublime, Atom (generic)
