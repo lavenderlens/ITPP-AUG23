@@ -1,0 +1,13 @@
+Scanner keyboard = new Scanner(System.in);
+System.out.println("Enter the account name: ");
+String name = keyboard.nextLine();
+System.out.println("Enter the account number: ");
+int number = keyboard.nextInt();
+System.out.println("Enter the account balance: ");
+float balance = keyboard.nextFloat();
+System.out.println("Enter the account taxable flag (true or false): ");
+boolean isTaxable = keyboard.nextBoolean();
+System.out.println("Name: " + name);
+System.out.println("Number: " + number);
+System.out.println("Balance: " + balance);
+System.out.println("Is taxable: " + isTaxable);

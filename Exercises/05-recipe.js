@@ -1,0 +1,16 @@
+var ingredients = ["chicken", "breadcrumbs", "salt", "garlic", "lime"];
+console.log("ORIGINAL");
+console.log(ingredients[0]);
+console.log(ingredients[1]);
+console.log(ingredients[2]);
+console.log(ingredients[3]);
+console.log(ingredients[4]);
+ingredients[4] = "lemon";
+ingredients.push("rocket");
+ingredients.splice(2, 1);
+console.log("AFTER CHANGES");
+console.log(ingredients[0]);
+console.log(ingredients[1]);
+console.log(ingredients[2]);
+console.log(ingredients[3]);
+console.log(ingredients[4]);

@@ -1,0 +1,11 @@
+Scanner keyboard = new Scanner(System.in);
+System.out.println("Enter the first number: ");
+int num1 = keyboard.nextInt();
+System.out.println("Enter the second number: ");
+int num2 = keyboard.nextInt();
+boolean num1EqualNum2 = num1 == num2;
+System.out.println("The numbers are equal: " + num1EqualNum2);
+boolean num1GreaterThanNum2 = num1 > num2;
+System.out.println("The first number is greather than the second: " + num1GreaterThanNum2);
+boolean num1LessThanNum2 = num1 < num2;
+System.out.println("The first number is less than the second: " + num1LessThanNum2);
