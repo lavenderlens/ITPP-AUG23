@@ -1,0 +1,29 @@
+Objects and Classes.
+
+Python is an object oriented language.
+That doesn't mean it won't support functional or procedural paradigms.
+It does all, as does JS and Java.
+
+Procedural: code that focuses on variables and functions.
+Code that focuses on objects (with variables and functions INSIDE).
+
+Object: a group for related data and functions.
+the data encapsulated in an object is called its state.
+the functions encapsulated in an object are called its behaviour/methods.
+in Python, and object's state and methods are referred to as its attributes
+The dot notation is used to access attributes eg object_name.attribute, object_name.method()
+
+Technically, everything in Python is an object, even literals like numbers, booleans, and strings
+
+Search python immutable for more articles.
+
+A class is a template/blueprint for creating objects in a uniform manner
+so that objects of the same class have the same attributes, but not necessarily the same attribute values.
+
+In Python you cannot create objects without first defining a class.
+In this python follows the Java practice NOT the JS, where you may have object literals.
+
+A class defines what data and functions each object of the class has.
+A class is a datatype.
+By convention classes should be named in PascalCase (CamelCase), not the usual convention of underscores (snake_case).
+Unfortunately most of the built-in classes are not conventionally-named and are often lower case.
